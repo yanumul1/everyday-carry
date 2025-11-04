@@ -1,0 +1,157 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #f4f7fa; 
+  color: #222;          
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 700; 
+  color: #1f3a93;         
+  line-height: 1.2;
+}
+
+p {
+  font-weight: 400;
+  color: #333;
+}
+
+nav {
+  background: #1f3a93;     
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #3f61d3;         
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #e6ecf8;  
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.item-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.item-card img {
+  width: 150px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.item-card h2 {
+  margin-bottom: 10px;
+}
+
+.item-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.item-detail {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.item-detail img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.item-detail h1 {
+  margin-bottom: 15px;
+}
+
+.item-detail p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #1f3a93;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #3f61d3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f3a93;
+  color: #fff;
+  border-radius: 0 0 15px 15px;
+  margin-top: 50px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 30px 0;
+}
+
+img.small-img {
+  width: 100px;      
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; 
+
+  }
